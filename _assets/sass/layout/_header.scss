@@ -1,0 +1,43 @@
+header{
+	padding:25px;
+	text-align: center;
+
+	.logo{
+		font-size: em(20);
+	    line-height: 1.3em;
+	    font-weight: $bold;
+	    letter-spacing: .19em;
+	    text-transform: uppercase;
+	}
+
+	.header-links{
+		margin-top:20px;
+		a{
+			font-size: em(15);
+			line-height: 2em;
+
+			&:last-child{
+				display: block;
+			}
+		}
+
+		.hide-mobile{ display: none; }
+	}
+
+	@include breakpoint-up(md){
+		padding:30px $gutter;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.header-links{
+			margin-top:0;
+
+			a:last-child{
+				display: inline-block;
+			}
+
+			.hide-mobile{ display: inline-block; }
+		}
+	}
+} // header

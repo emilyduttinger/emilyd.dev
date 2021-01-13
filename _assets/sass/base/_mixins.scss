@@ -1,0 +1,29 @@
+
+// CALCULATE EM
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+
+// MEDIA QUERIES
+@mixin breakpoint-up($bp) {
+  @media only screen and (min-width: map-get($grid-breakpoints, $bp)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-down($bp) {
+  @media only screen and (max-width: map-get($grid-breakpoints, $bp - 1)) {
+    @content;
+  }
+}
+
+// SECTION PADDING
+@mixin sectionPadding(){
+    padding:$sectionPaddingTopDesktop $sectionPaddingSidesDesktop;
+
+    @media(max-width: $mobile){
+        padding:$sectionPaddingTopMobile $sectionPaddingSidesMobile;
+    }
+}

@@ -1,0 +1,37 @@
+section.intro{
+	.text-wrap{
+		width:750px;
+		max-width: 100%;
+	}
+
+	.skills{
+		margin-top:40px;
+
+		ul{
+			li{
+				display: block;
+			}
+		}
+
+		@include breakpoint-up(sm){
+			ul{
+				column-count:2;
+				column-gap:$gutter;
+			}
+		}
+
+		@include breakpoint-up(md){
+			margin-top:$gutter*1.5;
+
+			ul{
+				column-count:3
+			}
+		}
+
+		@include breakpoint-up(lg){
+			ul{
+				column-count:4;
+			}
+		}
+	}
+}//section.intro

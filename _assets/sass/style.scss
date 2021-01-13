@@ -1,0 +1,22 @@
+/* BASE - Base mixins, variables, resets and other base styles
+========================================================================== */
+
+@import 'base/reset';
+@import 'base/a11y';
+@import 'base/mixins';
+@import 'base/variables';
+@import 'base/typography';
+
+/* COMPONENTS - Global reusable components and UI elements
+========================================================================== */
+@import 'components/intro';
+@import 'components/grid';
+
+/* LAYOUT - Structure and layout files
+========================================================================== */
+@import 'layout/layout';
+@import 'layout/header';
+@import 'layout/footer';
+
+/* MODULES - Re-usable site sections
+========================================================================== */

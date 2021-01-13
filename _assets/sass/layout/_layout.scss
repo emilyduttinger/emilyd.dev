@@ -1,0 +1,42 @@
+html {
+    // viewport width font sizes for REMs
+    font-size:1vw;
+    
+    @media (min-width:(1600px)) { font-size:16px; }
+
+    @media(max-width: $mobile){
+        font-size:9px;
+    }
+}//html
+
+body {
+    font-family: $poppins;
+    font-weight: $regular;
+    color:$black;
+    font-size:16px;
+    font-style:normal;
+   // -webkit-font-smoothing: antialiased;
+   // -moz-osx-font-smoothing: grayscale;
+}
+
+section{
+	@include sectionPadding;
+
+	&.bg-lightGray{
+		background-color:$lightGray;
+	}
+
+	& + section:not(.bg-lightGray){
+		padding-top:0;
+	}
+}
+
+.container{
+	width:1200px;
+	max-width: 100%;
+	margin:0 auto;
+
+	&.large{
+		width:1400px;
+	}
+}

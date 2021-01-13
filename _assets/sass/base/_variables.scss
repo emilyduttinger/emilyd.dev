@@ -1,0 +1,50 @@
+// SPACING
+$spacer: 16;
+$gutter: (50 / $spacer) * 1rem; // the "50" is being used as if it was a pixel, get this number from the design file
+
+$sectionPaddingTopDesktop: $gutter*2.4;
+$sectionPaddingSidesDesktop: $gutter*2;
+
+$sectionPaddingTopMobile: 60px;
+$sectionPaddingSidesMobile: 25px;
+
+/*******************************************/
+/* COLORS                                  */
+/*******************************************/
+
+$black: #2d2926;
+$white: #fff;
+$blue: #171c8f;
+$gray: #6c7886;
+$lightGray: #efeff0;
+$peach: #f18a66;
+
+/*******************************************/
+/* FONTS                                   */
+/*******************************************/
+
+$poppins: 'Poppins', sans-serif;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+/*******************************************/
+/* BREAKPOINTS                             */
+/*******************************************/
+
+$tabletLarge: 1024px;
+$tablet: 900px;
+$mobile: 767px;
+$smallMobile: 600px;
+
+$grid-breakpoints: (
+    xs: 0px,
+    se: 375px,
+    sm: 600px,
+    md: 768px,
+    tab: 901px,
+    lg: 1025px,
+    xl: 1201px,
+    xxl: 1401px
+);

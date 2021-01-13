@@ -1,0 +1,32 @@
+footer{
+	@include sectionPadding;
+	text-align:center;
+
+	h4{
+		font-size: em(20);
+	    line-height: 1.3em;
+	    font-weight: $bold;
+	    letter-spacing: .19em;
+	    text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+
+	a{
+		font-size: em(15);
+		line-height: 2em;
+
+		&:last-child{
+			display: block;
+		}
+	}
+
+	.hide-mobile{ display: none; }
+
+	@include breakpoint-up(md){
+		a:last-child{
+			display: inline-block;
+		}
+
+		.hide-mobile{ display: inline-block; }
+	}
+}

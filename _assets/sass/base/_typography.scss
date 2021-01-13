@@ -1,0 +1,84 @@
+@mixin paragraph(){
+	font-size: em(17);
+	line-height: 1.8em;
+    letter-spacing: .02em;
+    color:$black;
+
+    &.paragraphLarge{
+    	font-size: em(23);
+
+    	@media(max-width: $mobile){
+	    	font-size: em(17);
+	    }
+    }
+}
+
+a{
+	@include paragraph;
+	color:$black;
+	transition:color 0.3s ease;
+
+	&:hover, &:focus{
+		outline:none;
+		color:$peach;
+	}
+}
+
+p{
+	@include paragraph;
+}
+
+.titleLarge{
+	font-size: em(65);
+	font-weight: $bold;
+	line-height: 1.2em;
+    letter-spacing: .02em;
+
+    @media(max-width: $mobile){
+    	font-size: em(40);
+    }
+
+	& + p{
+		margin-top:25px;
+	}
+}
+
+.title{
+	font-size:em(30);
+	font-weight: $medium;
+	line-height: 1.2em;
+    letter-spacing: .02em;
+}
+
+.subtitle{
+	text-transform: uppercase;
+    font-size: em(15);
+    line-height: 1.3em;
+    font-weight: $bold;
+    letter-spacing: .125em;
+
+    & + ul{
+    	margin-top:15px;
+    }
+}
+
+ul{
+	list-style-type:none;
+	li{
+		@include paragraph;
+		text-indent: -1.3em;
+    	padding-left: 1.3em;
+    	margin-top:10px;
+
+    	&:before{
+    		content: '';
+		    display: inline-block;
+		    vertical-align: middle;
+		    background-color: $black;
+		    margin-right: 15px;
+		    width: 15px;
+		    height: 1px;
+		    margin-top:-2px;
+    	}
+	}
+}
