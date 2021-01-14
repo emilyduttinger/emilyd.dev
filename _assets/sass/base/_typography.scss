@@ -16,11 +16,13 @@
 a{
 	@include paragraph;
 	color:$black;
+	display: inline-block;
 	transition:color 0.3s ease;
+	font-weight: $medium;
 
 	&:hover, &:focus{
 		outline:none;
-		color:$peach;
+		color:$blue;
 	}
 }
 

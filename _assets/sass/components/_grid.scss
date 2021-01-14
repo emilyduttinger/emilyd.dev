@@ -18,7 +18,7 @@
 		      	height: 100%;
 		      	top: 0;
 			    left: 0;
-		      	object-fit: cover;
+		      	//object-fit: cover;
 		      	object-position: center;
 		      	margin: 0;
 		    }
@@ -33,7 +33,7 @@
 			width:100%;
 			display: flex;
 			justify-content: space-between;
-			padding:12px 0;
+			padding:15px 0;
 			border-bottom:1px solid $black;
 
 			p{
@@ -44,7 +44,7 @@
 				&:first-child{
 					width:30%;
 					margin-right: 30px;
-					font-weight: $medium;
+					font-weight: $semiBold;
 				}
 			}
 
@@ -52,6 +52,14 @@
 				font-size:1em;
 				font-weight: $medium;
 				display: inline-block;
+			}
+
+			@media(max-width: 600px){
+				span{
+					display: none;
+				}
+				
+				a{ display: block; }
 			}
 		}
 	}

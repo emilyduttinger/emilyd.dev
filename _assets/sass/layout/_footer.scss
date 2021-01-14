@@ -13,19 +13,11 @@ footer{
 
 	a{
 		font-size: em(15);
-		line-height: 2em;
-
-		&:last-child{
-			display: block;
-		}
 	}
 
 	.hide-mobile{ display: none; }
 
 	@include breakpoint-up(md){
-		a:last-child{
-			display: inline-block;
-		}
 
 		.hide-mobile{ display: inline-block; }
 	}

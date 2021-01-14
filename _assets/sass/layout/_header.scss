@@ -14,11 +14,6 @@ header{
 		margin-top:20px;
 		a{
 			font-size: em(15);
-			line-height: 2em;
-
-			&:last-child{
-				display: block;
-			}
 		}
 
 		.hide-mobile{ display: none; }
@@ -32,10 +27,6 @@ header{
 
 		.header-links{
 			margin-top:0;
-
-			a:last-child{
-				display: inline-block;
-			}
 
 			.hide-mobile{ display: inline-block; }
 		}

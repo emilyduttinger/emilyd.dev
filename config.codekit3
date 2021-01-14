@@ -9,14 +9,6 @@
 	],
 "creatorBuild": "33070",
 "files": {
-	"/_assets/files/EmilyDuttinger_Resume.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_assets/files/EmilyDuttinger_Resume.pdf",
-		"oF": 0
-		},
 	"/_assets/images/favicon.png": {
 		"ft": 32768,
 		"iS": 13552,
@@ -30,6 +22,45 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/_assets/images/Georgia-Grown.jpg": {
+		"ft": 16384,
+		"iS": 235945,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/images/Georgia-Grown.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/_assets/images/Ideabar.jpg": {
+		"ft": 16384,
+		"iS": 297897,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/images/Ideabar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/_assets/images/Jacket.jpg": {
+		"ft": 16384,
+		"iS": 115459,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/images/Jacket.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/_assets/images/now-and-den.jpg": {
 		"ft": 16384,
 		"iS": 154726,
@@ -39,6 +70,19 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/_assets/images/Wandering-Wines.jpg": {
+		"ft": 16384,
+		"iS": 181917,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/images/Wandering-Wines.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -256,7 +300,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 632191118.50766301,
-	"displayValue": "emilyduttinger.com",
+	"displayValue": "emilyduttinger.dev",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-ucla",
 	"iconImageWasSetByUser": 0

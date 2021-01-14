@@ -4,12 +4,12 @@
 
 			<div class="item">
 				<div class="image">
-					<img src="_assets/images/WS-Development.jpg" alt="Garden City Center Website" />
+					<a href="https://gardencitycenter.com/" target="_blank"><img src="_assets/images/WS-Development.jpg" alt="Garden City Center Website" /></a>
 				</div><!--/.image-->
 				<h3 class="title">WS Development</h3>
 				<div class="detail">
 					<p>URLs</p>
-					<p><a href="https://gardencitycenter.com/" target="_blank">gardencitycenter.com</a>&nbsp; / &nbsp;<a href="https://thestreetchestnuthill.com/" target="_blank">thestreetchestnuthill.com</a>&nbsp; / &nbsp;<a href="https://hydeparkvillage.com/" target="_blank">hydeparkvillage.com</a>&nbsp; / &nbsp;<a href="https://hilldale.com/" target="_blank">hilldale.com</a>&nbsp; / &nbsp;<a href="https://highlandvillagejxn.com/" target="_blank">highlandvillagejxn.com</a>&nbsp; / &nbsp;<a href="https://derbystshops.com/" target="_blank">derbystshops.com</a>&nbsp; / &nbsp;<a href="https://theshopsatfarmingtonvalley.com/" target="_blank">theshopsatfarmingtonvalley.com</a>&nbsp; / &nbsp;<a href="https://marketstreetlynnfield.com/" target="_blank">marketstreetlynnfield.com</a></p>
+					<p><a href="https://gardencitycenter.com/" target="_blank">gardencitycenter.com</a><span>&nbsp; / &nbsp;</span><a href="https://hydeparkvillage.com/" target="_blank">hydeparkvillage.com</a><span>&nbsp; / &nbsp;</span><a href="https://thestreetchestnuthill.com/" target="_blank">thestreetchestnuthill.com</a><span>&nbsp; / &nbsp;</span><a href="https://derbystshops.com/" target="_blank">derbystshops.com</a><span>&nbsp; / &nbsp;</span><a href="https://hilldale.com/" target="_blank">hilldale.com</a><span>&nbsp; / &nbsp;</span><a href="https://highlandvillagejxn.com/" target="_blank">highlandvillagejxn.com</a><span>&nbsp; / &nbsp;</span><a href="https://theshopsatfarmingtonvalley.com/" target="_blank">theshopsatfarmingtonvalley.com</a><span>&nbsp; / &nbsp;</span><a href="https://marketstreetlynnfield.com/" target="_blank">marketstreetlynnfield.com</a></p>
 				</div><!--/.detail-->
 				<div class="detail">
 					<p>Details</p>
@@ -27,7 +27,7 @@
 
 			<div class="item">
 				<div class="image">
-					<img src="_assets/images/now-and-den.jpg" alt="Now & Den Website" />
+					<a href="https://nowandden.com/" target="_blank"><img src="_assets/images/now-and-den.jpg" alt="Now & Den Website" /></a>
 				</div><!--/.image-->
 				<h3 class="title">Now &amp; Den</h3>
 				<div class="detail">
@@ -51,7 +51,7 @@
 
 			<div class="item">
 				<div class="image">
-
+					<a href="https://georgiagrown.com/" target="_blank"><img src="_assets/images/Georgia-Grown.jpg" alt="Georgia Grown Website" /></a>
 				</div><!--/.image-->
 				<h3 class="title">Georgia Grown</h3>
 				<div class="detail">
@@ -74,7 +74,7 @@
 
 			<div class="item">
 				<div class="image">
-
+					<a href="https://ideabaragency.com/" target="_blank"><img src="_assets/images/Ideabar.jpg" alt="Ideabar Website" /></a>
 				</div><!--/.image-->
 				<h3 class="title">Ideabar</h3>
 				<div class="detail">
@@ -95,13 +95,13 @@
 				</div><!--/.detail-->
 				<div class="detail">
 					<p>Awards</p>
-					<p>Webby Honoree</p>
+					<p><a href="https://winners.webbyawards.com/2020/websites/general-websites/professional-services-self-promotion/121027/ideabaragency" target="_blank">Webby Honoree</a></p>
 				</div><!--/.detail-->
 			</div><!--/.item-->
 
 			<div class="item">
 				<div class="image">
-
+					<a href="https://jacketsunscreen.com/" target="_blank"><img src="_assets/images/Jacket.jpg" alt="Jacket Sunscreen Website" /></a>
 				</div><!--/.image-->
 				<h3 class="title">Jacket Sunscreen</h3>
 				<div class="detail">
@@ -120,7 +120,7 @@
 
 			<div class="item">
 				<div class="image">
-
+					<a href="https://wanderingwines.com/" target="_blank"><img src="_assets/images/Wandering-Wines.jpg" alt="Wandering Wines Website" /></a>
 				</div><!--/.image-->
 				<h3 class="title">Wandering Wines</h3>
 				<div class="detail">
