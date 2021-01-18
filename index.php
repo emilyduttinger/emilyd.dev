@@ -25,7 +25,7 @@
             <div class="container">
                 <div class="text-wrap">
                     <h1 class="titleLarge">Front-End UX/UI Developer</h1>
-                    <p class="paragraphLarge">I have a passion for building modern, consumer-centric, websites and design systems with a focus on usability, performance and accessibility.</p>
+                    <p class="paragraphLarge">I have a passion for building modern, consumer-centric websites and design systems with a focus on usability, performance and accessibility.</p>
                 </div><!--/.text-wrap-->
 
                 <div class="skills">
@@ -39,6 +39,7 @@
                         <li>PHP</li>
                         <li>JavaScript</li>
                         <li>jQuery</li>
+                        <li>Handlebars</li>
                         <li>UX/UI Design</li>
                         <li>Klaviyo</li>
                         <li>Drip CRM</li>
